@@ -8,9 +8,9 @@ var centinel=false;
 
 function addX(event){
     if(centinel)
-        event.target.textContent='X';
+        event.target.innerHTML='<strong>X</strong>';
     else
-        event.target.textContent='O';
+        event.target.innerHTML='<strong>O</strong>';
         centinel=!centinel;
 }
 
