@@ -14,7 +14,7 @@ function addX(event){
         centinel=!centinel;
 }
 
-board.addEventListener('click',reset);
+//board.addEventListener('click',reset);
 function reset(){
     var td = document.getElementsByTagName('td');
 
