@@ -1,7 +1,7 @@
 window.onload=function(){
     var board=document.querySelector('.board-js');
 
-board.addEventListener('click',addX);
+board.addEventListener('click',addX,reset);
 
 };
 var centinel=false;
